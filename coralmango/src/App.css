@@ -1,0 +1,151 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.formdata{
+  background-color: aqua;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+
+}
+.formbox{
+  height:60vh;
+  width: 50%;
+  background-color: blue;
+  margin-left: 25%;
+  /* margin-top: 20px; */
+  padding-top: 20%;
+  border-radius: 15%;
+}
+.formlable{
+  color:azure;
+  font-size: large;
+}
+.formlable label{
+  padding-right: 10px;
+}
+.datatable{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -15px;
+}
+.tabledata{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 43%;
+  margin-top: 4%;
+}
+.input input{
+  margin-top: 10%;
+  height: 10vh;
+  width: 35%;
+  /* border-radius: 25%; */
+}
+.inputtab{
+  height: 10vh;
+  width: 35%;
+}
+.nav{
+  background-color: aquamarine;
+  margin-top: 0px;
+  height: 12vh;
+}
+.navbar{
+  display: flex;
+  text-decoration: none;
+  justify-content: flex-end;
+  
+}
+.navbar li{
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+ 
+  text-decoration-line: none;
+  text-decoration: none;
+  
+}
+
+.navbarli{
+  margin-left: 10px;
+  margin-right: 70px;
+  padding-top: 12px;
+}
+
+.navbarli a {
+  text-decoration: none;
+  color: #282c34!important;
+  font-size: 26px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logo{
+  font-size: 26px;
+  font-weight: 500;
+  margin-top: 32px;
+  margin-left: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbody{
+  display: flex;
+  justify-content: space-between;
+}
+.name{
+  color: blueviolet;
+  
+}
+.occupation{
+  color: blueviolet;
+  font-size: 25px;
+}
+.age{
+  color: blueviolet;
+  font-size: 19px;
+}
+.togglerbutton{
+  color: rgb(128, 74, 9);
+  height: 10vh;
+  margin-left: 20px;
+  width: 10%;
+  background-color:aquamarine;
+}

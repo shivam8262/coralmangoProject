@@ -1,0 +1,28 @@
+Question 1.
+
+Answer : 
+  const result1 = a.filter((item, index) => {
+      if(index%2 === 0) {
+          return item;
+      }
+  })
+  console.log(result1);
+
+
+
+Question 2.
+  Answer:
+      const result2 = a.map(x => x * x );
+      console.log("result2",result2)
+
+      
+
+
+Question 3.
+   Answer:
+      const result3 = a.filter((item, index) => {
+        if(index%2 === 0) {
+            return item * item;
+        }
+    })
+    console.log("result3",result3);
